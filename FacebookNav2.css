@@ -1,0 +1,353 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: var(--search);
+}
+
+:root{
+    --home:#1877f2;
+    --navbg:#ffffff;
+    --fblogo:#1195f5;
+    --danger:#f4677f;
+    --search:#f0f2f5;
+    --left-divider:#dfe1e5;
+}
+.big-Box{
+    background-color: var(--search);
+    display: flex;
+    margin-top: 10px;
+}
+.left{
+    width: 25%;
+    overflow-y: scroll;
+    max-height: 700px;
+}
+.left-parent{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+.owner-left-first{
+    width: 30px;
+    height: 30px;
+    background-image: url(Photos/Shraddha-hd-5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.owner-left{
+    margin-right: 20px;
+}
+.last{
+    width: 30px;
+    height: 30px;
+    background-color: var(--navbg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divider-left{
+    height: 1px;
+    border: 1px solid #dfe1e5;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.news-feed{
+    width: 50%;
+    
+}
+.news-feed-items{
+    display: flex;
+}
+.news-feed-children{
+    width: 100px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.first-icon{
+    background-color: var(--home);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    background-color: var(--home);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    border: 3px solid var(--fblogo);
+}
+.text{
+    color: var(--navbg);
+}
+.scroll-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--navbg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 90px;
+    left: 1000px;
+}
+.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-post-box{
+    background-color: var(--navbg);
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 75%;
+}
+.add-post{
+    align-items: center;
+}
+.add-post-owner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+.owner{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.input-header{
+   flex-grow: 1;
+   border-radius: 20px;
+}
+.input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--search);
+    padding-left: 10px;
+}
+.input:focus{
+    outline: none;
+}
+.divider{
+    height: 1px;
+    border: 1px solid #f0f2f5;
+}
+.add-post-choices{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videos{
+    margin-right: 10px;
+    color: var(--danger);
+    
+}
+.twitter{
+margin-right: 10px;
+    color: greenyellow;
+}
+.github{
+    margin-right: 10px;
+    color: yellow;
+}
+.video-chat-parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.video-chat{
+    margin-top: 15px;
+    width: 75%;
+    background-color: var(--navbg);
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.words{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    padding: 5px 5px;
+}
+.friends-icons{
+    display: flex;
+    height: 60px;
+}
+.friends-icons-items{
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.friends-icons-items:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--search);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 410px;
+    left: 899px;
+}
+
+.right-chat-box{
+    width: 25%;
+}
+
+.posts-parent{
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+}
+.second-posts-parent{
+    width: 75%;
+    border: 3px solid var(--navbg);
+    border-radius: 15px;
+}
+
+.post-list{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.post-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--navbg);
+    padding: 10px 10px;
+}
+.post-name-ago{
+    display: flex;
+    align-items: center;
+}
+.post-owner{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 5px;
+}
+.post-save{
+
+}   
+.text-post{
+    padding: 5px 5px;
+    
+    background-color: var(--navbg);
+}
+.emojis-comments{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--navbg);
+    padding: 10px 10px;
+    
+}
+
+.emoji-comment{
+   display: flex;
+    
+}
+.like-emoji{
+    margin-right: 5px;
+}
+.comment-share{
+    display: flex;
+}
+.comment{
+    margin-right: 5px;
+}
+.like-comment-share{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--navbg);
+    padding: 10px 0;
+    align-items: center;
+}
+.like{
+}
+.comment{
+
+}
+.share{
+
+}
+.owner-icon{
+    background-image: url(Photos/Shraddha-hd-6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.owner-left{
+    margin-right: 20px;
+}
+.last-one{
+    background-color: var(--navbg);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
